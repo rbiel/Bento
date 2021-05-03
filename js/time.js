@@ -3,16 +3,16 @@ function displayClock() {
   const monthNames = [
     'Jan',
     'Feb',
-    'Mar,
+    'Mär',
     'Apr',
-    'May,
+    'Mai',
     'Jun',
     'Jul',
     'Aug',
     'Sep',
-    'Ok',
+    'Okt',
     'Nov',
-    'Dez,
+    'Dez',
   ];
 
   // Set to true to use a 12 hour date format
@@ -35,9 +35,9 @@ function displayClock() {
   document.getElementById('separator').innerHTML = ' : ';
   document.getElementById('minutes').innerText = min + ampm;
 
-  document.getElementById('month').innerText = mm;
   document.getElementById('day').innerText = dd;
-  
+  document.getElementById('month').innerText = mm;
+   
   
   setTimeout(displayClock, 1000);
 }
