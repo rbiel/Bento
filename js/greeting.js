@@ -3,12 +3,12 @@ const today = new Date();
 const hour = today.getHours();
 
 // Here you can change your name
-const name = ' John Doe';
+const name = ' Robert';
 
 // Here you can change your greetings
-const gree1 = 'Go to Sleep!  ';
-const gree2 = 'Good morning!  ';
-const gree3 = 'Good afternoon  ';
+const gree1 = 'Jetzt hör mal auf  ';
+const gree2 = 'Guten Morgen!  ';
+const gree3 = 'Kaffee?  ';
 const gree4 = 'Good evening,  ';
 const gree5 = 'Good evening,  ';
 const gree6 = 'Good evening,  ';
