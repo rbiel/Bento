@@ -8,7 +8,7 @@ const name = ' Robert';
 // Here you can change your greetings
 const gree1 = 'Jetzt hör mal auf  ';
 const gree2 = 'Guten Morgen!  ';
-const gree3 = 'Kaffee?  ';
+const gree3 = 'Zeit für einen Kaffee  ';
 const gree4 = 'Good evening,  ';
 const gree5 = 'Good evening,  ';
 const gree6 = 'Good evening,  ';
@@ -19,7 +19,7 @@ if (hour >= 23 && hour < 5) {
 } else if (hour >= 6 && hour < 12) {
   document.getElementById('greetings').innerText = gree2 + name;
 } else if (hour >= 12 && hour < 17) {
-  document.getElementById('greetings').innerText = gree3 + name;
+  document.getElementById('greetings').innerText = gree3 + name?;
 } else {
   document.getElementById('greetings').innerText = gree4 + name;
 }
